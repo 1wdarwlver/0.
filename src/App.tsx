@@ -5,6 +5,10 @@
 
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform, useSpring } from 'motion/react';
+import songImage from './assets/images/regenerated_image_1778504586986.png';
+import japanMap from './assets/images/regenerated_image_1778506991545.jpg';
+import charModel from './assets/images/regenerated_image_1778512562655.png';
+import techModel from './assets/images/regenerated_image_1778512771760.png';
 import { 
   Anchor, 
   Mail, 
@@ -108,7 +112,7 @@ export default function App() {
                 className="relative z-10 w-[30rem] h-[30rem] grayscale hover:grayscale-0 transition-all duration-700 overflow-hidden border border-black shadow-2xl"
               >
                  <img 
-                  src="/src/assets/images/regenerated_image_1778504586986.png" 
+                  src={songImage} 
                   alt="宋沅罄" 
                   className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-700"
                 />
@@ -203,7 +207,7 @@ export default function App() {
                 </div>
                 <div className="relative group overflow-hidden border border-black bg-white">
                    <img 
-                    src="/src/assets/images/regenerated_image_1778506991545.jpg" 
+                    src={japanMap} 
                     alt="日本地圖" 
                     className="w-full h-[500px] object-contain grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-105"
                    />
@@ -315,7 +319,7 @@ export default function App() {
                      className="flex-1 mb-8 overflow-hidden relative border border-white/10 group/card"
                    >
                       <img 
-                        src="/src/assets/images/regenerated_image_1778512562655.png" 
+                        src={charModel} 
                         alt="3D Character model" 
                         className="w-full h-full object-cover filter brightness-50 group-hover/card:brightness-75 transition-all duration-500 group-hover/card:scale-105"
                       />
@@ -341,7 +345,7 @@ export default function App() {
                      className="flex-1 mb-8 overflow-hidden relative border border-white/10 group/card"
                    >
                       <img 
-                        src="/src/assets/images/regenerated_image_1778512771760.png" 
+                        src={techModel} 
                         alt="3D Tech model" 
                         className="w-full h-full object-cover filter brightness-50 group-hover/card:brightness-75 transition-all duration-500 group-hover/card:scale-105"
                       />
